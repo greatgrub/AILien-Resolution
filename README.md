@@ -8,21 +8,13 @@ Many signals in the radio spectrum will at first look be mistaken for noise. Low
 
 
 ## Background
+Identifying weak signals is today mostly done at the receiver and by "lowering" the noise floor with mechanical and electrical means. A signal weaker than background noise cannot be detected unless the modulation and digitilization is know beforehand. If using multiple receiver at different positions, only signals common to them will can be considered for identification. This can be compared to how the first black hole whas photographed with several telescopes at different locations https://www.nasa.gov/mission_pages/chandra/news/black-hole-image-makes-history
 
-
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-
+Eliminating noise and identifying signals will act as a feedback loop to remove those same signals and lower the noise even further. The practical limit for how weak signals that can be detected will be many orders of magnitude lower than today. This is an important way to identify new natural phenomena causing radio transmissions -i.e. cosmological effects and even possible alien intelligence.
 
 ## How is it used?
+Participants will use radio receivers to record signals in IQ-format with GPS timestamps (Vita49 format or similar). IQ-data will be uploaded to a server and data from nearby receivers will be compared to each other. Common elements will be detected by unsupervised ML algorithm.
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-
-Images will make your README look nice!
 Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
 ![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
 
@@ -70,7 +62,3 @@ How could your project grow and become something even more? What kind of skills,
 ## Acknowledgments
 
 * list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
