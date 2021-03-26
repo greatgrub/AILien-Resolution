@@ -1,5 +1,6 @@
 # AILien-Resolution
 Sorting out intelligence from the noise
+
 Final project for the Building AI course
 
 ## Summary
@@ -13,13 +14,7 @@ Identifying weak signals is today mostly done at the receiver and by "lowering" 
 Eliminating noise and identifying signals will act as a feedback loop to remove those same signals and lower the noise even further. The practical limit for how weak signals that can be detected will be many orders of magnitude lower than today. This is an important way to identify new natural phenomena causing radio transmissions -i.e. cosmological effects and even possible alien intelligence.
 
 ## How is it used?
-Participants will use radio receivers to record signals in IQ-format with GPS timestamps (Vita49 format or similar). IQ-data will be uploaded to a server and data from nearby receivers will be compared to each other. Common elements will be detected by unsupervised ML algorithm.
-
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+Participants will use radio receivers to record signals in IQ-format with GPS timestamps (Vita49 format or similar). IQ-data will be uploaded to a server and data from nearby receivers will be compared to each other. Common elements will be detected by unsupervised ML algorithm. The amount of data requires algorithms to process and identified signals   will be used as classifiers. The iteration will run until no common IQ data is found for any data pair.
 
 This is how you create code examples:
 ```
